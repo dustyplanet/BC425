@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BC425_OPERATOR</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>BC425_OPERATOR</DOMNAME>
+    <HEADLEN>02</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>27</SCRLEN3>
+    <DDTEXT>Arithmetic Operator for Calculator Exercise</DDTEXT>
+    <REPTEXT>OP</REPTEXT>
+    <SCRTEXT_S>Operator</SCRTEXT_S>
+    <SCRTEXT_M>Arith.Operator</SCRTEXT_M>
+    <SCRTEXT_L>Operator for Calculation</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>D</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Rechenoperator für Taschenrechnerübung</DDTEXT>
+     <REPTEXT>OP</REPTEXT>
+     <SCRTEXT_S>Operator</SCRTEXT_S>
+     <SCRTEXT_M>Rechenoperator</SCRTEXT_M>
+     <SCRTEXT_L>Operator für die Berechnung</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>BC425_BDAY</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>S_DATE</DOMNAME>
+    <MEMORYID>DAY</MEMORYID>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>10</SCRLEN2>
+    <SCRLEN3>16</SCRLEN3>
+    <DDTEXT>Flight date</DDTEXT>
+    <REPTEXT>Date</REPTEXT>
+    <SCRTEXT_S>Date</SCRTEXT_S>
+    <SCRTEXT_M>Date</SCRTEXT_M>
+    <SCRTEXT_L>Flight Date</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <DEFFDNAME>FLIGHTDATE</DEFFDNAME>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>1</LANGU>
+    <LANGU>2</LANGU>
+    <LANGU>3</LANGU>
+    <LANGU>C</LANGU>
+    <LANGU>D</LANGU>
+    <LANGU>F</LANGU>
+    <LANGU>H</LANGU>
+    <LANGU>I</LANGU>
+    <LANGU>J</LANGU>
+    <LANGU>L</LANGU>
+    <LANGU>M</LANGU>
+    <LANGU>N</LANGU>
+    <LANGU>P</LANGU>
+    <LANGU>Q</LANGU>
+    <LANGU>R</LANGU>
+    <LANGU>S</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>1</DDLANGUAGE>
+     <DDTEXT>航班日期</DDTEXT>
+     <REPTEXT>航班日期</REPTEXT>
+     <SCRTEXT_S>日期</SCRTEXT_S>
+     <SCRTEXT_M>航班日期</SCRTEXT_M>
+     <SCRTEXT_L>航班日期</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>2</DDLANGUAGE>
+     <DDTEXT>วันที่บิน</DDTEXT>
+     <REPTEXT>วันที่บิน</REPTEXT>
+     <SCRTEXT_S>วัน</SCRTEXT_S>
+     <SCRTEXT_M>วันที่บิน</SCRTEXT_M>
+    </item>
+    <item>
+     <DDLANGUAGE>3</DDLANGUAGE>
+     <DDTEXT>운항일</DDTEXT>
+     <SCRTEXT_S>일자</SCRTEXT_S>
+    </item>
+    <item>
+     <DDLANGUAGE>C</DDLANGUAGE>
+     <DDTEXT>Datum letu</DDTEXT>
+     <REPTEXT>DatumLetu</REPTEXT>
+     <SCRTEXT_S>Datum</SCRTEXT_S>
+     <SCRTEXT_M>DatumLetu</SCRTEXT_M>
+     <SCRTEXT_L>Datum letu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Flugdatum</DDTEXT>
+     <REPTEXT>Geburtsdatum</REPTEXT>
+     <SCRTEXT_S>Geb.</SCRTEXT_S>
+     <SCRTEXT_M>Geb. Datum</SCRTEXT_M>
+     <SCRTEXT_L>Geburtsdatum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>F</DDLANGUAGE>
+     <DDTEXT>Date du vol</DDTEXT>
+     <REPTEXT>Date vol</REPTEXT>
+     <SCRTEXT_S>Date</SCRTEXT_S>
+     <SCRTEXT_M>Date vol</SCRTEXT_M>
+     <SCRTEXT_L>Date du vol</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>H</DDLANGUAGE>
+     <DDTEXT>Járat dátuma</DDTEXT>
+     <REPTEXT>JáratDát.</REPTEXT>
+     <SCRTEXT_S>Dátum</SCRTEXT_S>
+     <SCRTEXT_M>JáratDát.</SCRTEXT_M>
+     <SCRTEXT_L>Járat dátuma</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>I</DDLANGUAGE>
+     <DDTEXT>Data volo</DDTEXT>
+     <REPTEXT>Data volo</REPTEXT>
+     <SCRTEXT_S>Data</SCRTEXT_S>
+     <SCRTEXT_M>Data volo</SCRTEXT_M>
+     <SCRTEXT_L>Data volo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>J</DDLANGUAGE>
+     <DDTEXT>フライト日付</DDTEXT>
+     <REPTEXT>日付</REPTEXT>
+     <SCRTEXT_S>日付</SCRTEXT_S>
+     <SCRTEXT_M>日付</SCRTEXT_M>
+     <SCRTEXT_L>フライト日付</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>L</DDLANGUAGE>
+     <DDTEXT>Data odlotu</DDTEXT>
+     <REPTEXT>Data odl.</REPTEXT>
+     <SCRTEXT_S>Data</SCRTEXT_S>
+     <SCRTEXT_M>Data odl.</SCRTEXT_M>
+     <SCRTEXT_L>Data lotu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>M</DDLANGUAGE>
+     <SCRTEXT_S>日期</SCRTEXT_S>
+    </item>
+    <item>
+     <DDLANGUAGE>N</DDLANGUAGE>
+     <DDTEXT>Vluchtdatum</DDTEXT>
+     <REPTEXT>Vl.dat.</REPTEXT>
+     <SCRTEXT_S>Datum</SCRTEXT_S>
+     <SCRTEXT_M>Vl.dat.</SCRTEXT_M>
+     <SCRTEXT_L>Vluchtdatum</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Data do vôo</DDTEXT>
+     <REPTEXT>Data vôo</REPTEXT>
+     <SCRTEXT_S>Data</SCRTEXT_S>
+     <SCRTEXT_M>Data vôo</SCRTEXT_M>
+     <SCRTEXT_L>Data do vôo</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>Q</DDLANGUAGE>
+     <DDTEXT>Dátum letu</DDTEXT>
+     <REPTEXT>Dát.letu</REPTEXT>
+     <SCRTEXT_S>Dátum</SCRTEXT_S>
+     <SCRTEXT_M>Dát.letu</SCRTEXT_M>
+     <SCRTEXT_L>Dátum letu</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>R</DDLANGUAGE>
+     <DDTEXT>Дата рейса</DDTEXT>
+     <REPTEXT>ДатаРейса</REPTEXT>
+     <SCRTEXT_S>Дата</SCRTEXT_S>
+     <SCRTEXT_M>ДатаРейса</SCRTEXT_M>
+     <SCRTEXT_L>Дата рейса</SCRTEXT_L>
+    </item>
+    <item>
+     <DDLANGUAGE>S</DDLANGUAGE>
+     <DDTEXT>Fecha de vuelo</DDTEXT>
+     <REPTEXT>Fe.vuelo</REPTEXT>
+     <SCRTEXT_S>Fecha</SCRTEXT_S>
+     <SCRTEXT_M>Fe.vuelo</SCRTEXT_M>
+     <SCRTEXT_L>Fecha de vuelo</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>DE</ID>
+      <OBJECT>BC425_BDAY</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00001</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>BC425_BDAY</TDNAME>
+      <TDID>DE</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Beschreibt das Geburtsdatum einer Person.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEPENDENCIES&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

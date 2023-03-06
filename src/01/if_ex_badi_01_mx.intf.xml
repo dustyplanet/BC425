@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_EX_BADI_01_MX</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>BAdI-Interface IF_EX_BADI_00_MX</DESCRIPT>
+    <CATEGORY>01</CATEGORY>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EXIT_MENU_BOOK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Absprung aus Menü</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EXIT_MENU_BOOK</CMPNAME>
+     <SCONAME>IS_BOOK</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Einzelflugbuchung</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DSYS" serializer_version="v2.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGBC425_99FLIGHT2</OBJECT>
+      <LANGU>D</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00039</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGBC425_99FLIGHT2</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>D</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Dieses Business Add-In ermöglicht Ihnen die Erweiterung der Transaktion</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>zum Ändern von Flugdaten BC425_CHNG##. Der Name des zugehörigen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Programms ist SAPBC425_FLIGHT_CHNG##. Dieses Programm enthält zwei</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bildschirmbilder: Ein Bild zur Eingabe des zu ändernden Fluges, ein</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Folgebild, auf dem Sie die Flugdaten ändern können. Dieses zweite Bild</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>stellt eine Erweiterungsmöglichkeit zur Verfügung, die mit Hilfe dieses</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BAdIs implementiert werden kann. Die über die Zusatzfelder auf dem</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Bildschirm eingegebenen Daten werden an die SAP-Transaktion zurüc</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>=</TDFORMAT>
+       <TDLINE>kgegeben und dort verbucht.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Falls die Zusatzfelder Ihren eigenen Tabellen entstammen, müssen Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>selbst für das Fortschreiben dieser Daten sorgen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Das SAP-Programm stellt eine Dynpro-Erweiterung über ein Business</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Add-In zur Verfügung.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Legen Sie die Implementierung zu diesem BAdI an.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Um zusätzliche Felder auf dem Eingabebild zu platzieren, müssen Sie</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>folgende Objekte anlegen:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>ein Programm, das als Träger des anzulegenden Subscreen-Dynpros</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>fungiert. Hierzu können Sie beispielsweise eine Funktionsgruppe</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>anlegen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>eine Implementierung zu diesem BAdI:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>Diese Implementierung enthält die Information über das aufzurufende</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Subscreen-Dynpro. Zusätzlich implementieren Sie hier die Methoden, die</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>für den Datentransfer zwischen SAP-Anwendung und Ihrem Programm sorgen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>In der oben genannten Funktionsgruppe müssen Sie noch folgende Dinge</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>implementieren:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Bei Process Before Output Ihres Subscreen-Dynpros müssen Sie ein Modul</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>aufrufen, worin Sie einen Methodenaufruf implementieren. Diese Methode</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>ermittelt die Referenz auf die Instanz der implementierenden</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>BAdI-Klasse.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Diese Instanz benötigen Sie, um anschließend die Daten, die vom</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SAP-Programm übergeben wurden, in die Funktionsgruppe zu bekommen.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>Wollen Sie geänderte Daten in das SAP-Programm zurückschreiben, müssen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Sie bei Process After Input die entsprechende Methode aufrufen. Dieser</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Methode übergeben Sie die geänderten Daten.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+    <item>
+     <DOKIL>
+      <ID>HY</ID>
+      <OBJECT>SIMGBC425_99FLIGHT2</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0006</VERSION>
+      <TXTLINES>00030</TXTLINES>
+      <DOKSTATE>A</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DSYS</TDOBJECT>
+      <TDNAME>SIMGBC425_99FLIGHT2</TDNAME>
+      <TDID>HY</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00006</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;USE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>This Business Add-In enables you to enhance the transaction for changing</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>flight data BC425_CHNG##. The name of the corresponding program is</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>SAPBC425_FLIGHT_CHNG##. This program contains two screens: one screen</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>for entering the flight to be changed and another screen where you can</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>change the flight data. This second screen provides you with an</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>enhancement option that you can implement using this Business Add-In.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>The data entered through the additional fields on the screen are passed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>back to the SAP transaction and posted there.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If the additional fields come from their own tables, you must take care</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>of the updating of this data yourself</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;PRECONDITIONS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The SAP program provides a screen enhancement through a Business Add-In.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;STANDARD_SETUP&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;ACTIVITY&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Create the implementation for this Business Add-In.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>To place additional fields on the input screen, create the following</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>objects:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>A program that functions as a container for the subscreen to be created.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>For example, you can create a function group here.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>An implementation for this Business Add-In.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>/</TDFORMAT>
+       <TDLINE>The implementation contains the information on the subscreen to be</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>called. In addition, here you implement methods that take care of the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data transfer between the SAP application and your program.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B1</TDFORMAT>
+       <TDLINE>In the above-mentioned function group, you need to implement the</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>following:</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>At Process Before Output in your subscreen, you need to call a module in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>which you implement a method call. This method finds the reference to</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the instance of the implementing Business Add-In class.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>You require this instance in order to get the data passed by the SAP</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>program into the function group.,,</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>B2</TDFORMAT>
+       <TDLINE>If you want to read changed data back into the SAP program, you must</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>call the appropriate method at Process After Input. You pass the changed</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>data to this method.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>UT</TDFORMAT>
+       <TDLINE>&amp;EXAMPLE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

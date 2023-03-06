@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>IF_EX_BADI_BOOK20</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>BAdI Interface IF_EX_BADI_BOOK20</DESCRIPT>
+    <CATEGORY>01</CATEGORY>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_VLINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ändern der Position der senkrechten Linie</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_VLINE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Position of Vertical Line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>OUTPUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erweiterung der Ausgabe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>OUTPUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Output Enhancement</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_VLINE</CMPNAME>
+     <SCONAME>C_POS</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Position der senkrechten Linie</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_VLINE</CMPNAME>
+     <SCONAME>C_POS</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Position of Vertical Line</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>OUTPUT</CMPNAME>
+     <SCONAME>I_BOOKING</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Dynprostruktur - Flugbuchung</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>OUTPUT</CMPNAME>
+     <SCONAME>I_BOOKING</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Screen Structure - Flight Booking</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
